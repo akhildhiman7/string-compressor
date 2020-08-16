@@ -47,15 +47,15 @@ String Compressor is a web based application. This application makes a POST requ
 <p>
   INPUT STRING:  "aaabbbccccd"
   OUTPUT STRING: "a3b3c4d2"
-  ![INPUT A](/images/a.jpg)
-  ![OUTPUT A](/images/b.jpg)
+  ![INPUT A](https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/a.jpg)
+  ![OUTPUT A](https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/b.jpg)
   INPUT STRING:  "abccccccccccccccc"
   OUTPUT STRING: "abc15"
-  ![INPUT B](/images/c.jpg)
-  ![OUTPUT B](/images/d.jpg)
+  ![INPUT B](https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/c.jpg)
+  ![OUTPUT B](https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/d.jpg)
   INPUT STRING:  "abc15"
   OUTPUT STRING: "abccccccccccccccc"
-  ![INPUT C](/images/e.jpg)
-  ![OUTPUT C](/images/f.jpg)
+  ![INPUT C](https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/e.jpg)
+  ![OUTPUT C](https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/f.jpg)
 </p>
   
