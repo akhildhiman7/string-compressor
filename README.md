@@ -48,14 +48,14 @@ String Compressor is a web based application. This application makes a POST requ
   INPUT STRING:  "aaabbbccccd"<br>
   OUTPUT STRING: "a3b3c4d2"
   <img src ="https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/a.jpg" alt="INPUT A" />
-  <img src ="https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/b.jpg" alt="OUTPUT A" />
+  <img src ="https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/b.jpg" alt="OUTPUT A" /><br><br>
   INPUT STRING:  "abccccccccccccccc"<br>
   OUTPUT STRING: "abc15"
   <img src ="https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/c.jpg" alt="INPUT B" />
-  <img src ="https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/d.jpg" alt="OUTPUT B" />
+  <img src ="https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/d.jpg" alt="OUTPUT B" /><br><br>
   INPUT STRING:  "abc15"<br>
   OUTPUT STRING: "abccccccccccccccc"
   <img src ="https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/e.jpg" alt="INPUT C" />
-  <img src ="https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/f.jpg" alt="OUTPUT C" />
+  <img src ="https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/f.jpg" alt="OUTPUT C" /><br><br>
 </p>
   
