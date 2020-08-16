@@ -1,68 +1,61 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1> String Compressor </h1>
 
-## Available Scripts
+<p>
+String Compressor is a web based application. This application makes a POST request to the server written in NodeJs which returns the desired string format.
+</p>
+<p>
+  There are two ways to interact with the server
+  <ul>
+    <li> Encode string </li>
+    <li> Decode string </li>
+  </ul>
+</p>
+<h2> Algorithm </h1>
+<p> It is a straight forward algorithm which does not make use of any database. As there are two endpoints of the server.<br><br>
+  The <strong>Encode String</strong> expects a string. Which returns the encoded version of the string. <br>
+  The algorithm first initializes an empty result string and than counts the contiguous occurance of the character in the
+  input string and adds the charater with its frequency in the result string initialized earlier. And when the input string is completely traversed it returns the result string.
+  <br>
+  <br>
+  The <strong>Decode String</strong> expects a string . Which returns the decoded version of the string. <br>
+  Initially an empty result string is created. After that the input string is traversed. For every character in the input string, the next character is checked and if it is a <strong><em>number </em> </strong> than the complete number is discovered by traversing the input string further until a <em><strong> NaN (Not a Number)</strong></em> character is found. This way the frequeny of the character is discovered. After that the character is added it's frequency time in the result string. This processes is repeated until the pointer reaches the end of the string. At the end, the decoded string version is returned.
+</p>
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<h2> Components of the Code </h2>
+<p>
+  The website can be found at https://aqueous-atoll-40897.herokuapp.com/ 
+</p>
+<p>
+  This project is built using ReactJs create-react-app and the server is written in NodeJs. The package.json file contains all the details about the dependencies and the scripts in the files. The frontend file App.js can be found in src directory. The User makes a POST request while submitting a request and the request is handled by the server which can be found at https://shrouded-crag-69475.herokuapp.com/ there are two endpoints to access the api <strong><em></em>/encod</strong>e and <strong><em>/decode</em></strong>. The React app interacts with these two endpoints and the result is rendered by the react app.
+  The Styling can be found in App.css and index.css. The HTML file is present as the index.html file in the Public directory.
+</p>
+<p>
+  To run the app locally just git clone this application to your pc and just run npm install (this will install all the dependencies) and when all the dependencies are installed just open the app directory and run <strong><em>npm start</em></strong>. Your application would be running on PORT 3000. <br>
+  Enjoy!!🎉 The application is running 
+</p><br>
+<h2> Dependencies </h2>
+<ul>
+  <li> React create-react-app </li>
+  <li> body-parser </li>
+  <li> ejs </li>
+  <li> express </li>
+  <li> node-fetch </li>
+</ul>
+<br> 
+<p> Used HEROKU to deploy the app </p>
+<h2> HOW TO USE / TEST CASES </h2>
+<p>
+  INPUT STRING:  "aaabbbccccd"
+  OUTPUT STRING: "a3b3c4d2"
+  ![INPUT A](/images/a.jpg)
+  ![OUTPUT A](/images/b.jpg)
+  INPUT STRING:  "abccccccccccccccc"
+  OUTPUT STRING: "abc15"
+  ![INPUT B](/images/c.jpg)
+  ![OUTPUT B](/images/d.jpg)
+  INPUT STRING:  "abc15"
+  OUTPUT STRING: "abccccccccccccccc"
+  ![INPUT C](/images/e.jpg)
+  ![OUTPUT C](/images/f.jpg)
+</p>
+  
