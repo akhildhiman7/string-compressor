@@ -30,14 +30,14 @@ String Compressor is a web based application. This application makes a POST requ
   The Styling can be found in App.css and index.css. The HTML file is present as the index.html file in the Public directory.
 </p>
 <p>
-  To run the app locally just git clone this application to your pc and just run npm install (this will install all the dependencies) and when all the dependencies are installed just open the app directory and run <strong><em>npm start</em></strong>. Your application would be running on PORT 3000. <br>
+  To run the app locally. First git clone the server at https://github.com/akhildhiman7/string-backend and hit npm install. This will install the dependencies for the server and just run node start. This will make the server running at PORT 5000.
+  Once the server is running just git clone this application to your pc and just run npm install (this will install all the dependencies) and when all the dependencies are installed just open the app directory and run <strong><em>npm start</em></strong>. Your application would be running on PORT 3000. <br>
   Enjoy!!🎉 The application is running 
 </p><br>
 <h2> Dependencies </h2>
 <ul>
   <li> React create-react-app </li>
   <li> body-parser </li>
-  <li> ejs </li>
   <li> express </li>
   <li> node-fetch </li>
 </ul>
