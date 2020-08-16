@@ -47,7 +47,7 @@ String Compressor is a web based application. This application makes a POST requ
 <p>
   INPUT STRING:  "aaabbbccccd"
   OUTPUT STRING: "a3b3c4d2"
-  ![INPUT A](https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/a.jpg)
+  <img src ="https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/a.jpg" alt="INPUT A" />
   ![OUTPUT A](https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/b.jpg)
   INPUT STRING:  "abccccccccccccccc"
   OUTPUT STRING: "abc15"
