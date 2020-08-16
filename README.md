@@ -45,17 +45,17 @@ String Compressor is a web based application. This application makes a POST requ
 <p> Used HEROKU to deploy the app </p>
 <h2> HOW TO USE / TEST CASES </h2>
 <p>
-  INPUT STRING:  "aaabbbccccd"
+  INPUT STRING:  "aaabbbccccd"<br>
   OUTPUT STRING: "a3b3c4d2"
   <img src ="https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/a.jpg" alt="INPUT A" />
-  ![OUTPUT A](https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/b.jpg)
-  INPUT STRING:  "abccccccccccccccc"
+  <img src ="https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/b.jpg" alt="OUTPUT A" />
+  INPUT STRING:  "abccccccccccccccc"<br>
   OUTPUT STRING: "abc15"
-  ![INPUT B](https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/c.jpg)
-  ![OUTPUT B](https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/d.jpg)
-  INPUT STRING:  "abc15"
+  <img src ="https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/c.jpg" alt="INPUT B" />
+  <img src ="https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/d.jpg" alt="OUTPUT B" />
+  INPUT STRING:  "abc15"<br>
   OUTPUT STRING: "abccccccccccccccc"
-  ![INPUT C](https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/e.jpg)
-  ![OUTPUT C](https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/f.jpg)
+  <img src ="https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/e.jpg" alt="INPUT C" />
+  <img src ="https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/f.jpg" alt="OUTPUT C" />
 </p>
   
