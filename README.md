@@ -51,16 +51,16 @@ String Compressor is a web based application. This application makes a POST requ
 <p> Used HEROKU to deploy the app </p>
 <h2> HOW TO USE / TEST CASES </h2>
 <p>
-  INPUT STRING:  "aaabbbccccd"<br>
-  OUTPUT STRING: "a3b3c4d2"
+  INPUT STRING:  "akhil"<br>
+  OUTPUT STRING: "gOUc"
   <img src ="https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/a.jpg" alt="INPUT A" />
   <img src ="https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/b.jpg" alt="OUTPUT A" /><br><br>
-  INPUT STRING:  "abccccccccccccccc"<br>
-  OUTPUT STRING: "abc15"
+  INPUT STRING:  "america"<br>
+  OUTPUT STRING: "X7mHF"
   <img src ="https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/c.jpg" alt="INPUT B" />
   <img src ="https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/d.jpg" alt="OUTPUT B" /><br><br>
-  INPUT STRING:  "abc15"<br>
-  OUTPUT STRING: "abccccccccccccccc"
+  INPUT STRING:  "X7mHF"<br>
+  OUTPUT STRING: "america"
   <img src ="https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/e.jpg" alt="INPUT C" />
   <img src ="https://raw.githubusercontent.com/akhildhiman7/string-compressor/master/images/f.jpg" alt="OUTPUT C" /><br><br>
 </p>
