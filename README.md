@@ -12,14 +12,20 @@ String Compressor is a web based application. This application makes a POST requ
 </p>
 <h2> Algorithm </h1>
 <p> It is a straight forward algorithm which does not make use of any database. As there are two endpoints of the server.<br><br>
-  The <strong>Encode String</strong> expects a string. Which returns the encoded version of the string. <br>
-  The algorithm first initializes an empty result string and than counts the contiguous occurance of the character in the
-  input string and adds the charater with its frequency in the result string initialized earlier. And when the input string is completely traversed it returns the result string.
+  <p>The <strong>Encode String</strong> expects a string containing lowercase characters only. It returns the encoded version of the string. <br>
+  As there are only 26 lowercase characters. The input string is a form of Base 26 number. The encoded version of the string contains alphanumeric characters which contains the character in the range <strong><em>[a-zA-Z0-9]</em></strong>. The algorithm first converts the input string Base 26 representation to a Base 10 number. This Base 10 number is further transformed into a Base 62 numbers as the alphanumeric number contains</p>
+  <ul>
+  <li> a .. z   - 26</li>
+  <li> A .. Z   - 26</li>
+  <li> 0 .. 9   - 10</li>
+  </ul>
+  Which equals to 26 + 26 + 10 = 62 possible characters. This resultant string is returned back to the user. 
   <br>
   <br>
-  The <strong>Decode String</strong> expects a string . Which returns the decoded version of the string. <br>
-  Initially an empty result string is created. After that the input string is traversed. For every character in the input string, the next character is checked and if it is a <strong><em>number </em> </strong> than the complete number is discovered by traversing the input string further until a <em><strong> NaN (Not a Number)</strong></em> character is found. This way the frequeny of the character is discovered. After that the character is added it's frequency time in the result string. This processes is repeated until the pointer reaches the end of the string. At the end, the decoded string version is returned.
-</p>
+  The <strong>Decode String</strong> expects an alphanumeric string. It returns the decoded version of the string. <br>
+  Initially the alphanumeric Base 62 number is converted into the Base 10 decimal number. This Base 10 number is further converted into the Base 26 string. The obtained Base 26 representation is returned back to the user.<br>
+  The Decode String Endpoint is just the reverse process of the Encoding Endpoint.
+  </p>
 
 <h2> Components of the Code </h2>
 <p>
